@@ -1,0 +1,30 @@
+h1 {
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+}
+
+h1 button {
+    float: right;
+}
+
+canvas{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    margin-top: 10px;
+    animation-name: theanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes theanimation {
+    from {box-shadow:1px 1px 40px teal;}
+    to {box-shadow: 1px 1px 40px orange;}
+}
+body{
+    background-color: white;
+}
